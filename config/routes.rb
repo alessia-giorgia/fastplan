@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   
 
-  devise_for :Users
+  devise_for :users
 
   root 'pages#home'
 
